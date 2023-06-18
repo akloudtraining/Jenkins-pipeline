@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Testing') {
             steps {
-                echofffffff 'We are testing the application'
+                echo 'We are testing the application'
             }
         }
     }
